@@ -29,3 +29,8 @@ time.sleep(5)
 driver.forward()
 print(driver.current_url)
 time.sleep(15)
+
+#metodo REFRESH (imprime la linea actual del navegador en la consola)
+driver.refresh()
+print(driver.current_url)
+time.sleep(15)
