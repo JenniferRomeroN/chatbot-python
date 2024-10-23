@@ -24,3 +24,8 @@ time.sleep(15)
 driver.back()
 print(driver.current_url)
 time.sleep(5)
+
+#metodo FORWARD (reenviar a google)
+driver.forward()
+print(driver.current_url)
+time.sleep(15)
