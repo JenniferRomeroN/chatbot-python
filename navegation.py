@@ -4,6 +4,7 @@ from selenium import webdriver
 #time es para pausar la ejecucion
 import time
 
+#creamoa una instancia
 driver = webdriver.Chrome()
 driver.set_window_position(0,0)
 driver.set_window_size(1024, 720)
